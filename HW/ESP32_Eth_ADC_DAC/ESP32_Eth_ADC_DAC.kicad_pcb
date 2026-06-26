@@ -7,6 +7,10 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(date "June 2026")
+		(comment 1 "RA194/2022")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -51,7 +55,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_55555550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -64,9 +68,9 @@
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(pdf_front_fp_property_popups yes)
-			(pdf_back_fp_property_popups yes)
-			(pdf_metadata yes)
+			(pdf_front_fp_property_popups no)
+			(pdf_back_fp_property_popups no)
+			(pdf_metadata no)
 			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
@@ -77,14 +81,14 @@
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
+			(sketchdnponfab no)
+			(crossoutdnponfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "C:/Users/User/Downloads/")
 		)
 	)
 	(footprint "ESP32_Eth_ADC_DAC:ESP32-ETH01"
@@ -96,7 +100,7 @@
 		(property "Reference" "U1"
 			(at 1.27 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "59516a54-dcba-4cad-adb6-b836c7738902")
+			(uuid "2fd2c0dc-dd7e-4795-b3dd-11185525b7e2")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +111,7 @@
 		(property "Value" "ESP32-ETH01"
 			(at 0 -35.56 0)
 			(layer "F.Fab")
-			(uuid "789e08e1-2180-40e5-b301-ed7e7e1e635b")
+			(uuid "0368a088-464f-4c33-ad4c-2cc8e67b2e69")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +123,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b81f3d2f-2464-4e48-8129-d0122e05dd5e")
+			(uuid "ee880f2c-6247-46c6-9384-2d9b51573eb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +134,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57ecd939-6df4-4ab7-9bf0-3c009ae0e752")
+			(uuid "c7b92c2c-9cee-4186-9341-66b8862c4550")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +616,7 @@
 		(property "Reference" "U3"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "734e0f5c-29f2-4411-b649-4f69bca3930d")
+			(uuid "8a396923-7f62-4815-8b96-af186d60933a")
 			(effects
 				(font
 					(size 1 1)
@@ -623,7 +627,7 @@
 		(property "Value" "WM8782S_adc"
 			(at 0 -25.4 0)
 			(layer "F.Fab")
-			(uuid "00d10fc2-48be-48b2-8cb5-27e127687897")
+			(uuid "d8c042ea-8ce9-4a69-a85c-457dbb97a504")
 			(effects
 				(font
 					(size 1 1)
@@ -635,7 +639,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d820e612-ef7a-475f-91b1-f61b20667187")
+			(uuid "ffa848e7-4281-43a7-8929-f3fa4d966c46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +650,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ba4ffc3-f587-4878-8e8a-69af9499a1f3")
+			(uuid "b27d6b65-700f-4cf8-9ae0-95c5eee183d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -938,7 +942,7 @@
 		(property "Reference" "J1"
 			(at 3.81 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "e75dc20a-7d59-4b46-81a5-f95e27276248")
+			(uuid "a7e543f7-1d38-4a59-8455-d010e855f2b5")
 			(effects
 				(font
 					(size 1 1)
@@ -949,7 +953,7 @@
 		(property "Value" "2.54mm female 90deg"
 			(at 0.68 17.805 0)
 			(layer "F.Fab")
-			(uuid "994b228d-0519-4dc3-97b9-ce4c0a042a1d")
+			(uuid "ec34cd6e-49bb-4b3c-a016-a815b8a546e7")
 			(effects
 				(font
 					(size 1 1)
@@ -961,7 +965,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "866ab434-0ba4-42b9-88fb-9bc9326779c0")
+			(uuid "4b997a17-c194-4c76-b969-11d364ba340b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +976,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff7d5a8e-7679-4431-943f-bab3ca1ba4ad")
+			(uuid "39851e83-315e-4bd4-9311-ec4b94e8bc30")
 			(effects
 				(font
 					(size 1.27 1.27)
